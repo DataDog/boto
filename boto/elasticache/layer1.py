@@ -43,7 +43,7 @@ class ElastiCacheConnection(AWSQueryConnection):
     associated with their cache and can receive alarms if a part of
     their cache runs hot.
     """
-    APIVersion = "2013-06-15"
+    APIVersion = "2015-02-02"
     DefaultRegionName = "us-east-1"
     DefaultRegionEndpoint = "elasticache.us-east-1.amazonaws.com"
 
@@ -1160,6 +1160,17 @@ class ElastiCacheConnection(AWSQueryConnection):
         return self._make_request(
             action='DescribeReservedCacheNodesOfferings',
             verb='POST',
+            path='/', params=params)
+
+    def list_tags_for_resource(self, resource_arn=None):
+        """ List all tags for an elasticache cluster, given it's ARN
+        """
+        params = {}
+        if resource_arn is not None:
+            params['ResourceName'] = resource_arn
+        return self._make_request(
+            action='ListTagsForResource',
+            verb='GET',
             path='/', params=params)
 
     def modify_cache_cluster(self, cache_cluster_id, num_cache_nodes=None,
