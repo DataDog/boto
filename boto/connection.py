@@ -1115,7 +1115,7 @@ class AWSQueryConnection(AWSAuthConnection):
             http_request.params['Action'] = action
         if self.APIVersion:
             http_request.params['Version'] = self.APIVersion
-        statsd.increment('boto.request', tags=["action:%s" % action or 'unknown', "host:"])
+        statsd.increment('boto.request', tags=["action:%s" % action or 'unknown'])
         return self._mexe(http_request)
 
     def build_list_params(self, params, items, label):
