@@ -69,6 +69,9 @@ from boto.exception import PleaseRetryException
 from boto.provider import Provider
 from boto.resultset import ResultSet
 
+from datadog import statsd
+
+
 HAVE_HTTPS_CONNECTION = False
 try:
     import ssl
@@ -1112,6 +1115,7 @@ class AWSQueryConnection(AWSAuthConnection):
             http_request.params['Action'] = action
         if self.APIVersion:
             http_request.params['Version'] = self.APIVersion
+        statsd.increment('boto.request', tags=["action:%s" % action or 'unknown'])
         return self._mexe(http_request)
 
     def build_list_params(self, params, items, label):
