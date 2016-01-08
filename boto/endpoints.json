@@ -1,6 +1,7 @@
 {
     "autoscaling": {
         "ap-northeast-1": "autoscaling.ap-northeast-1.amazonaws.com",
+        "ap-northeast-2": "autoscaling.ap-northeast-2.amazonaws.com",
         "ap-southeast-1": "autoscaling.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "autoscaling.ap-southeast-2.amazonaws.com",
         "cn-north-1": "autoscaling.cn-north-1.amazonaws.com.cn",
@@ -72,6 +73,7 @@
     },
     "cloudtrail": {
         "ap-northeast-1": "cloudtrail.ap-northeast-1.amazonaws.com",
+        "ap-northeast-2": "cloudtrail.ap-northeast-2.amazonaws.com",
         "ap-southeast-1": "cloudtrail.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "cloudtrail.ap-southeast-2.amazonaws.com",
         "eu-west-1": "cloudtrail.eu-west-1.amazonaws.com",
@@ -83,6 +85,7 @@
     },
     "cloudwatch": {
         "ap-northeast-1": "monitoring.ap-northeast-1.amazonaws.com",
+        "ap-northeast-2": "monitoring.ap-northeast-2.amazonaws.com",
         "ap-southeast-1": "monitoring.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "monitoring.ap-southeast-2.amazonaws.com",
         "cn-north-1": "monitoring.cn-north-1.amazonaws.com.cn",
@@ -141,6 +144,7 @@
     },
     "ec2": {
         "ap-northeast-1": "ec2.ap-northeast-1.amazonaws.com",
+        "ap-northeast-2": "ec2.ap-northeast-2.amazonaws.com",
         "ap-southeast-1": "ec2.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "ec2.ap-southeast-2.amazonaws.com",
         "cn-north-1": "ec2.cn-north-1.amazonaws.com.cn",
@@ -157,6 +161,7 @@
     },
     "elasticache": {
         "ap-northeast-1": "elasticache.ap-northeast-1.amazonaws.com",
+        "ap-northeast-2": "elasticache.ap-northeast-2.amazonaws.com",
         "ap-southeast-1": "elasticache.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "elasticache.ap-southeast-2.amazonaws.com",
         "cn-north-1": "elasticache.cn-north-1.amazonaws.com.cn",
@@ -180,6 +185,7 @@
     },
     "elasticloadbalancing": {
         "ap-northeast-1": "elasticloadbalancing.ap-northeast-1.amazonaws.com",
+        "ap-northeast-2": "elasticloadbalancing.ap-northeast-2.amazonaws.com",
         "ap-southeast-1": "elasticloadbalancing.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "elasticloadbalancing.ap-southeast-2.amazonaws.com",
         "cn-north-1": "elasticloadbalancing.cn-north-1.amazonaws.com.cn",
@@ -225,6 +231,7 @@
     },
     "iam": {
         "ap-northeast-1": "iam.amazonaws.com",
+        "ap-northeast-2": "iam.amazonaws.com",
         "ap-southeast-1": "iam.amazonaws.com",
         "ap-southeast-2": "iam.amazonaws.com",
         "cn-north-1": "iam.cn-north-1.amazonaws.com.cn",
@@ -252,6 +259,7 @@
         "ap-southeast-1": "kinesis.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "kinesis.ap-southeast-2.amazonaws.com",
         "ap-northeast-1": "kinesis.ap-northeast-1.amazonaws.com",
+        "ap-northeast-2": "kinesis.ap-northeast-2.amazonaws.com",
         "eu-central-1": "kinesis.eu-central-1.amazonaws.com"
     },
     "kms": {
@@ -277,6 +285,7 @@
     },
     "rds": {
         "ap-northeast-1": "rds.ap-northeast-1.amazonaws.com",
+        "ap-northeast-2": "rds.ap-northeast-2.amazonaws.com",
         "ap-southeast-1": "rds.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "rds.ap-southeast-2.amazonaws.com",
         "cn-north-1": "rds.cn-north-1.amazonaws.com.cn",
@@ -341,6 +350,7 @@
     },
     "sns": {
         "ap-northeast-1": "sns.ap-northeast-1.amazonaws.com",
+        "ap-northeast-2": "sns.ap-northeast-2.amazonaws.com",
         "ap-southeast-1": "sns.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "sns.ap-southeast-2.amazonaws.com",
         "cn-north-1": "sns.cn-north-1.amazonaws.com.cn",
